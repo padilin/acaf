@@ -11,11 +11,7 @@ from django.urls import reverse
 from acaf.users.forms import UserAdminChangeForm
 from acaf.users.models import User
 from acaf.users.tests.factories import UserFactory
-from acaf.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from acaf.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
