@@ -36,12 +36,15 @@ repos:
     hooks:
       - id: cruft
         name: cruft
-        language: system
+        language: python
         entry: python -m cruft check
         always_run: true
         pass_filenames: false
-
-# sets up .pre-commit-ci.yaml to ensure pre-commit dependencies stay up to date
+        additional_dependencies:
+          [
+            cruft==2.11.1,
+          ]
+          # sets up .pre-commit-ci.yaml to ensure pre-commit dependencies stay up to date
 ci:
   autoupdate_schedule: weekly
   skip: []
