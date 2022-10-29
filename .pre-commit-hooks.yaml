@@ -1,0 +1,6 @@
+---
+- id: cruft
+  name: Check cruft state
+  description: Cruft for cookiecutter provides a convenient cookie versioning
+  language: script
+  entry: pre_commit_hooks/cruft
