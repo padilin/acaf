@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/cookiecutter/cookiecutter-django",
-  "commit": "db3edf1e70ea617552b1cc30bd79032b6ed24817",
+  "commit": "2f4bb6c1ba566af7bb73a131c75cb47352e2a215",
   "context": {
     "cookiecutter": {
       "project_name": "AnotherChanceforAnimalsFosters",
